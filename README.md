@@ -85,7 +85,7 @@ source of truth — see `docs/theming.md` in the Omarchy repo.
 ## Install
 
 ```
-omarchy theme install https://github.com/<you>/omarchy-theme-crimson.git
+omarchy theme install Colenado/omarchy-crimson-theme
 omarchy theme set crimson
 omarchy theme bg next   # cycle through the three wallpapers
 ```
