@@ -25,10 +25,7 @@ Cycle with `omarchy theme bg next` or pin one with `omarchy theme bg set <path>`
 <img src="backgrounds/1-sooner-run.jpeg" alt="1 — wagon chase at sunset" width="480">
 <img src="backgrounds/2-oklahoma.jpg" alt="2 — poster art: warm-red hills, golden river" width="480">
 
-Pair matching intro videos in `backgrounds/intros/` by basename (e.g.
-`intros/0-sooner-run.mp4` plays when wallpaper `0` is selected). See
-`docs/theming.md` in the Omarchy repo for supported video formats and
-duration guidance (5–7 seconds recommended).
+See `docs/theming.md` in the Omarchy repo for general theming guidance.
 
 ## Palette
 
@@ -69,9 +66,6 @@ ratios against `background`:
   accent).
 - `backgrounds/0-sooner-run.jpg`, `1-sooner-run.jpeg`, `2-oklahoma.jpg`
   — three wallpapers selectable via the background picker.
-- `backgrounds/intros/` — empty; add matching `0-sooner-run.<ext>`,
-  `1-sooner-run.<ext>`, `2-oklahoma.<ext>`, etc. to pair videos with
-  wallpapers (see `default/themed/*.tpl`).
 
 ## What's intentionally NOT shipped
 
