@@ -1,33 +1,28 @@
-# Crimson — Oklahoma Sooners crimson and cream, dark mode.
-# The consolidated Sooners-branded dark theme; pairs the full warm-illustration
-# wallpaper set with a deep crimson-tinged near-black background and cream
-# foreground.
+# Crimson — warm-red and cream, dark mode.
+# The dark variant; pairs the full warm-illustration wallpaper set with
+# a deep warm-red-tinged near-black background and cream foreground.
 #
 # Wallpapers shipped (pick via omarchy theme bg next, or pin one):
-#   - 0-boomer.webp     — pixel-art OU Stadium at sunset
-#   - 1-sooner-run.jpeg — Wild West wagons at crimson sunset (1889 Land Run)
-#   - 2-oklahoma.jpg    — OkieLandscape poster art: crimson hills, golden river
-#   - 3-ou-stadium.jpg  — OU Stadium photographic
+#   - 0-boomer.webp       — pixel-art stadium at sunset
+#   - 1-sooner-run.jpeg   — Wild West wagons at warm-red sunset (1889 Land Run)
+#   - 2-oklahoma.jpg      — poster art: warm-red hills, golden river
+#   - 3-ou-stadium.jpg    — stadium photographic
 #
-# Per the OU brand guide, Oklahoma Cream is reserved for print only, so cream
-# here is the readable terminal/UI foreground — never a solid background
-# fill, matching the dark jersey treatment.
+# Cream here is the readable terminal/UI foreground — never a solid
+# background fill, matching the dark treatment.
 #
-# Sister to `noodling/` (cream/light). The two share the Sooners crimson +
+# Sister to `noodling/` (cream/light). The two share the warm-red +
 # cream palette; cream is the light variant, crimson is the dark variant.
-# The four Oklahoma-branded sibling themes that previously lived as
-# boomer-sooner/, sooner-run/, oklahoma/ were consolidated into this single
-# dark theme so the picker carries one entry per mode.
 
 mode = "dark"
 
 accent = "#841617"
 # `selection` drives text-selection backgrounds (terminal selection,
-# btop selected_bg, Hermes selection_bg). The default Sooners value of
+# btop selected_bg, Hermes selection_bg). The default value of
 # #3a0a0c is too close to the deep near-black background for the
-# selection band to be visible (~1.26:1). Use the crimson accent at
+# selection band to be visible (~1.26:1). Use the warm-red accent at
 # full alpha so selected text reads against the panel fill (~6:1
-# cream-on-crimson) and the band itself is clearly distinct from the
+# cream-on-warm-red) and the band itself is clearly distinct from the
 # background (~2.4:1).
 selection = "#841617"
 muted = "#5a544b"
@@ -58,6 +53,6 @@ bright_cyan = "#5a8a8a"
 bright_blue = "#c4383a"
 bright_magenta = "#7a2a35"
 
-# Hyprland active border: crimson gradient, matches the cream variant's
-# hue so both Sooners modes share a recognisable accent.
+# Hyprland active border: warm-red gradient, matches the cream
+# variant's hue so both modes share a recognisable accent.
 hyprland_active_border = "rgba(132,22,23,0.9) rgba(196,56,58,0.95) 45deg"

@@ -1,6 +1,6 @@
 # Per-section overrides for the Crimson theme.
 # Dark mode. Surfaces are deep crimson-tinged near-black; text is warm
-# cream; borders and accents are OU Crimson. Mirrors the cream variant's
+# cream; borders and accents are warm red. Mirrors the cream variant's
 # `shell.toml` with light surfaces flipped to dark and dark text flipped
 # to cream.
 
