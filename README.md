@@ -22,6 +22,11 @@ Cycle with `omarchy theme bg next` or pin one with `omarchy theme bg set <path>`
 | `2` | `2-oklahoma.jpg` | poster art: warm-red hills, golden river |
 | `3` | `3-ou-stadium.jpg` | stadium photographic |
 
+<img src="backgrounds/0-boomer.webp" alt="0 — pixel-art stadium at sunset" width="480">
+<img src="backgrounds/1-sooner-run.jpeg" alt="1 — Wild West wagons at warm-red sunset" width="480">
+<img src="backgrounds/2-oklahoma.jpg" alt="2 — poster art: warm-red hills, golden river" width="480">
+<img src="backgrounds/3-ou-stadium.jpg" alt="3 — stadium photographic" width="480">
+
 Pair matching intro videos in `backgrounds/intros/` by basename (e.g.
 `intros/0-boomer.mp4` plays when wallpaper `0` is selected). See
 `docs/theming.md` in the Omarchy repo for supported video formats and
