@@ -17,11 +17,13 @@ Cycle with `omarchy theme bg next` or pin one with `omarchy theme bg set <path>`
 
 | Index | File | Source |
 |-------|------|--------|
-| `0` | `0-sooner-run.jpeg` | Wild West wagons at warm-red sunset (1889 Land Run) |
-| `1` | `1-oklahoma.jpg` | poster art: warm-red hills, golden river |
+| `0` | `0-sooner-run.jpg` | serene Land Run — wagon trains across the valley at sunset |
+| `1` | `1-sooner-run.jpeg` | chaotic wagon chase — pioneers and horses fleeing at sunset |
+| `2` | `2-oklahoma.jpg` | poster art: warm-red hills, golden river |
 
-<img src="backgrounds/0-sooner-run.jpeg" alt="0 — Wild West wagons at warm-red sunset" width="480">
-<img src="backgrounds/1-oklahoma.jpg" alt="1 — poster art: warm-red hills, golden river" width="480">
+<img src="backgrounds/0-sooner-run.jpg" alt="0 — serene Land Run at sunset" width="480">
+<img src="backgrounds/1-sooner-run.jpeg" alt="1 — wagon chase at sunset" width="480">
+<img src="backgrounds/2-oklahoma.jpg" alt="2 — poster art: warm-red hills, golden river" width="480">
 
 Pair matching intro videos in `backgrounds/intros/` by basename (e.g.
 `intros/0-sooner-run.mp4` plays when wallpaper `0` is selected). See
@@ -55,7 +57,7 @@ ratios against `background`:
 | Theme | Mode | Wallpaper |
 |-------|------|-----------|
 | `cream/` (as `noodling/`) | light | warm cream/burgundy illustrations |
-| `crimson/` | dark | the two wallpapers in this theme |
+| `crimson/` | dark | the two Sooner Run scenes and an OkieLandscape |
 
 ## What's shipped
 
@@ -65,11 +67,11 @@ ratios against `background`:
   is generated from `default/themed/shell.toml.tpl`.
 - `icons.theme` — `Yaru-red` (closest stock icon theme to the warm-red
   accent).
-- `backgrounds/0-sooner-run.jpeg`, `1-oklahoma.jpg` — two wallpapers
-  selectable via the background picker.
+- `backgrounds/0-sooner-run.jpg`, `1-sooner-run.jpeg`, `2-oklahoma.jpg`
+  — three wallpapers selectable via the background picker.
 - `backgrounds/intros/` — empty; add matching `0-sooner-run.<ext>`,
-  `1-oklahoma.<ext>`, etc. to pair videos with wallpapers (see
-  `default/themed/*.tpl`).
+  `1-sooner-run.<ext>`, `2-oklahoma.<ext>`, etc. to pair videos with
+  wallpapers (see `default/themed/*.tpl`).
 
 ## What's intentionally NOT shipped
 
@@ -91,7 +93,7 @@ source of truth — see `docs/theming.md` in the Omarchy repo.
 ```
 omarchy theme install https://github.com/<you>/omarchy-theme-crimson.git
 omarchy theme set crimson
-omarchy theme bg next   # cycle through the two wallpapers
+omarchy theme bg next   # cycle through the three wallpapers
 ```
 
 Or locally:
