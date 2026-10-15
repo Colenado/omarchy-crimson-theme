@@ -20,12 +20,10 @@ Cycle with `omarchy theme bg next` or pin one with `omarchy theme bg set <path>`
 | `0` | `0-boomer.webp` | pixel-art stadium at sunset |
 | `1` | `1-sooner-run.jpeg` | Wild West wagons at warm-red sunset (1889 Land Run) |
 | `2` | `2-oklahoma.jpg` | poster art: warm-red hills, golden river |
-| `3` | `3-ou-stadium.jpg` | stadium photographic |
 
 <img src="backgrounds/0-boomer.webp" alt="0 — pixel-art stadium at sunset" width="480">
 <img src="backgrounds/1-sooner-run.jpeg" alt="1 — Wild West wagons at warm-red sunset" width="480">
 <img src="backgrounds/2-oklahoma.jpg" alt="2 — poster art: warm-red hills, golden river" width="480">
-<img src="backgrounds/3-ou-stadium.jpg" alt="3 — stadium photographic" width="480">
 
 Pair matching intro videos in `backgrounds/intros/` by basename (e.g.
 `intros/0-boomer.mp4` plays when wallpaper `0` is selected). See
@@ -59,7 +57,7 @@ ratios against `background`:
 | Theme | Mode | Wallpaper |
 |-------|------|-----------|
 | `cream/` (as `noodling/`) | light | warm cream/burgundy illustrations |
-| `crimson/` | dark | the four wallpapers in this theme |
+| `crimson/` | dark | the three wallpapers in this theme |
 
 ## What's shipped
 
@@ -69,9 +67,8 @@ ratios against `background`:
   is generated from `default/themed/shell.toml.tpl`.
 - `icons.theme` — `Yaru-red` (closest stock icon theme to the warm-red
   accent).
-- `backgrounds/0-boomer.webp`, `1-sooner-run.jpeg`, `2-oklahoma.jpg`,
-  `3-ou-stadium.jpg` — four wallpapers selectable via the background
-  picker.
+- `backgrounds/0-boomer.webp`, `1-sooner-run.jpeg`, `2-oklahoma.jpg` —
+  three wallpapers selectable via the background picker.
 - `backgrounds/intros/` — empty; add matching `0-boomer.<ext>`,
   `1-sooner-run.<ext>`, etc. to pair videos with wallpapers (see
   `default/themed/*.tpl`).
@@ -96,7 +93,7 @@ source of truth — see `docs/theming.md` in the Omarchy repo.
 ```
 omarchy theme install https://github.com/<you>/omarchy-theme-crimson.git
 omarchy theme set crimson
-omarchy theme bg next   # cycle through the four wallpapers
+omarchy theme bg next   # cycle through the three wallpapers
 ```
 
 Or locally:
