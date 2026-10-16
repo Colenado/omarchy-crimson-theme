@@ -11,6 +11,8 @@ that echoes the sunset in every shipped wallpaper without going neon.
 Cream appears here only as readable terminal/UI foreground — never as
 a solid background fill.
 
+![preview](preview.png)
+
 ## Wallpapers
 
 Cycle with `omarchy theme bg next` or pin one with `omarchy theme bg set <path>`:
